@@ -9,6 +9,11 @@
 -- Creación de la base de datos
 CREATE DATABASE IF NOT EXISTS EmpresaDB;
 
+-- Recordad que luego de crear una base de datos si vamos a trabajar con ella misma o insertar tablas etc. Es importante usar lo siguiente
+
+    USE EmpresaDB;
+
+-- Indicando asi que vamos a estar trabajando con esta tabla, puesto que SQL no asume estaremos trabajando con dicha base de datos
 
 -- CONSTRAINT
 -- Constraints en SQL: Reglas que limitan el tipo de datos en tablas para mantener integridad.
