@@ -203,6 +203,16 @@ SELECT titulo, duracion,
 FLOOR (duracion/60.0) AS Horas_Completas
 FROM episodios;
 
+-- *Modulo* --
+-- El módulo devuelve el resto de la división entre dos números.
+
+-- Ejemplo 1
+
+SELECT titulo, serie_id
+FROM series
+WHERE MOD(serie_id, 2) = 0;
+
+-- Este solo mostrara resultado donde el ID sea un numero par ya que con el modulo indicamos que si se divide entre y resto 0 entonces lo traiga
 -- EJERCICIO FINAL
 
 SELECT 
