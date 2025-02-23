@@ -1,0 +1,4 @@
+Uno a uno (1:1): Cada registro de una tabla se relaciona con un solo registro de la otra tabla.
+Uno a muchos (1:N): Un registro de una tabla se puede relacionar con varios registros de la otra tabla.
+Muchos a uno (N:1): Varios registros de una tabla se pueden relacionar con un solo registro de la otra tabla.
+Muchos a muchos (N:M): Varios registros de una tabla se relacionan con varios registros de la otra, generalmente mediante una tabla intermedia.
